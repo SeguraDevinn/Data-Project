@@ -1,7 +1,7 @@
 # Medicare SynPUF Mini-Audit Project
 
 ## Dataset
-- Source: [CMS SynPUF](https://www.cms.gov/research-statistics-data-systems/synthetic-public-use-files-synpuf)
+- Source: [CMS SynPUF]([https://www.cms.gov/research-statistics-data-systems/synthetic-public-use-files-synpuf](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-claims-synthetic-public-use-files/cms-2008-2010-data-entrepreneurs-synthetic-public-use-file-de-synpuf/de10-sample-1))
 - Files used: Beneficiary Summary (2008–2010), Inpatient Claims (2008–2010, Sample 1)
 - Disclaimer: This project replicates/extends SynPUF documentation for educational purposes. No PHI is used.
 
