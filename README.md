@@ -18,6 +18,12 @@
 - `/figures/` → optional charts.
 - `chase_list_2009` → simulated RADV chase list, prioritized by missing/erroneous elements.
 
+## Figures
+- **Counts by Age Band × Sex (2009):** Distribution of the cohort across age bands, split by sex. Built from `data/clean/ageband_sex_counts_2009.csv`.  
+  ![Age × Sex](figures/ageband_sex_counts_2009.png)
+
+- **Chronic Condition Prevalence (2009):** Diabetes/CHF/COPD prevalence by age band (percent). Built from `data/clean/prevalence_by_ageband_2009.csv`.  
+  ![Prevalence](figures/prevalence_by_ageband_2009.png)
 
 
 ## Traceability Matrix
