@@ -1,7 +1,7 @@
 # Medicare SynPUF Mini-Audit Project
 
 ## Dataset
-- Source: [CMS SynPUF](https://www.cms.gov/research-statistics-data-systems/synthetic-public-use-files-synpuf)
+- Source: [CMS SynPUF](https://www.cms.gov/data-research/statistics-trends-and-reports/medicare-claims-synthetic-public-use-files/cms-2008-2010-data-entrepreneurs-synthetic-public-use-file-de-synpuf/de10-sample-1)
 - Files used: Beneficiary Summary (2008–2010), Inpatient Claims (2008–2010, Sample 1)
 - Disclaimer: This project replicates/extends SynPUF documentation for educational purposes. No PHI is used.
 
@@ -11,7 +11,6 @@
 3. **Cohort definition**: 2009 beneficiaries, enriched with age/sex/conditions (`sql/03_cohort.sql`).
 4. **Descriptives**: Age × sex, condition prevalence, utilization (`sql/04_descriptives.sql`).
 5. **Chase list**: Sampled 200 diabetes beneficiaries with claim checks (`sql/05_chase_list.sql`).
-6. **Traceability & findings**: See `docs/traceability.md` and summary slides.
 
 ## Outputs
 - `/data/clean/` → clean tables & descriptives (CSV exports).
